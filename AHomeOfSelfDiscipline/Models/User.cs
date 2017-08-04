@@ -321,7 +321,7 @@ namespace AHomeOfSelfDiscipline.Models
                 return "用户角色为空";
             }
 
-            return "NoProblem";
+            return CommonStatusCodes.StatusCode.Success.ToString();
         }
     }
 

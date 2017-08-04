@@ -665,8 +665,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708041239575_CreateDatabase.cs" />
+    <Compile Include="Migrations\201708041239575_CreateDatabase.Designer.cs">
+      <DependentUpon>201708041239575_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041242474_CreateDatabaseSecond.cs" />
+    <Compile Include="Migrations\201708041242474_CreateDatabaseSecond.Designer.cs">
+      <DependentUpon>201708041242474_CreateDatabaseSecond.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AHomeDbContext.cs" />
+    <Compile Include="Models\CommonStatusCodes.cs" />
     <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Notice.cs" />
     <Compile Include="Models\User.cs" />
@@ -737,6 +746,14 @@
     <Folder Include="image\User\UpdateInfor\" />
     <Folder Include="Scripts\UEditor\net\upload\file\" />
     <Folder Include="Scripts\UEditor\net\upload\video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201708041239575_CreateDatabase.resx">
+      <DependentUpon>201708041239575_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041242474_CreateDatabaseSecond.resx">
+      <DependentUpon>201708041242474_CreateDatabaseSecond.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

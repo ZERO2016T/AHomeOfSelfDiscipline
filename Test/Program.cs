@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using AHomeOfSelfDiscipline.Models;
 
 namespace Test
 {
@@ -11,9 +12,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Regex(@"^[1-9][0-9]{4,9}$").IsMatch("dd"));
-
-           
+            Console.WriteLine(CommonStatusCodes.MatchClassCode.FreshmanManual.ToString());
         }
     }
 }

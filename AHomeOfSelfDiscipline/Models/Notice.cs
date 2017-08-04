@@ -43,5 +43,29 @@ namespace AHomeOfSelfDiscipline.Models
         /// 发布类别
         /// </summary>
         public string PublcationCategory { get; set; }
+
+        public string VerificationMatch(Notice notice)
+        {
+            //验证赛事主题
+            if (notice.NoticeSubject != null)
+            {
+                if (notice.NoticeSubject.Length < 6 || notice.NoticeSubject.Length > 30)
+                {
+                    return "公告主题的长度为[6,30]个字符";
+                }
+            }
+            else
+            {
+                return "公告主题为空";
+            }
+
+            //验证发布类别
+            if (notice.PublcationCategory != CommonStatusCodes.MatchClassCode.MostBeautifulBedroom.ToString() || notice.PublcationCategory != CommonStatusCodes.MatchClassCode.FreshmanManual.ToString())
+            {
+                return "公告类别只能为最新公告或者长期公告";
+            }
+
+            return CommonStatusCodes.StatusCode.Success.ToString();
+        }
     }
 }
