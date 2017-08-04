@@ -1,0 +1,76 @@
+﻿
+.update-pic-box
+{
+    width: 80%;
+    margin: 30px auto;
+    text-align:center;
+}
+.update-pic-box button
+{
+    float:none;
+    background: #208ed3;
+    border: 1px solid #208ed3;
+    color: #fff;
+}
+.update-pic-box button:hover
+{
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.update-pic-box .picture-show-box
+{
+	margin: 20px auto;
+    padding: 5px; 
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.update-pic-box .picture-show-box .update-pic{
+	display:block;
+    margin:auto;
+    width:100%;
+    height:100%;
+}
+
+.update-pic-box .update-pic-msg
+{
+    text-align:left;
+}
+
+.update-pic-box .update-pic-msg h3
+{
+    font-size:2em;
+}
+
+.update-pic-box .update-pic-msg ul li
+{
+    font-size:16px;
+    line-height:20px;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    .update-pic-box .picture-show-box
+    {
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media only screen and (max-width: 667px), only screen and (max-device-width: 667px) {
+  .update-pic-box .picture-show-box
+    {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 300px), only screen and (max-device-width: 300px) {
+  .update-pic-box .picture-show-box
+    {
+        width: 160px;
+        height: 160px;
+    }
+}

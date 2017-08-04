@@ -1,0 +1,154 @@
+﻿.sicau-logo
+{
+    z-index:900;
+    position: fixed;
+    top:10px;
+    right:0px;
+    width:70px;
+}
+
+/*锚点导航*/
+
+#nav-anchor
+{
+    padding-top:10px;
+    z-index:1000;
+    position: fixed;
+    top: 210px;
+    right: 0;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+    background-color: #7a6e6e;
+    color: white;
+    text-decoration:none;
+}
+
+#nav-anchor ul li
+{
+    cursor:pointer;
+    color:white;
+}
+
+#nav-anchor ul li:hover
+{
+    color: #c52d2f;
+}
+
+#toTop
+{
+    display:none !important;
+}
+
+/*图片轮播*/
+
+/*公告*/
+.date-top
+{
+    top: -34px;
+}
+
+#middle .container .row .overflow-hidden
+{
+    height: 18px;
+    max-width: 75%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#middle .container .row .list-group-item-text
+{
+   font-family: 'Glyphicons Halflings';
+}
+
+/*寄语*/
+#services .container .row .animated
+{
+    min-height:268px;
+}
+#services .container .row .media
+{
+    margin-bottom:10px;
+}
+#services .container .row .media .pull-left
+{
+    width:40%;
+}
+
+#services .container .row .media .pull-left img
+{
+    margin-left:10%;
+    width:80%;
+}
+
+#portfolio .row img
+{
+    height:220px;
+}
+
+/*@media only screen and (max-width: 767px), only screen and (max-device-width: 767px)
+{
+    #services .container .row .media .pull-left
+    {
+        width:100%;
+    }
+   #services .container .row .media .pull-left img
+    {
+       max-width:200px;
+        min-width:80px;
+        text-align:center;
+    }
+   #services .container .row .media .media-body
+   {
+       float:left;
+       width:100%;
+       padding-left: 10%;
+   }
+}*/
+
+/*视频资源*/
+
+#feature .video-style
+{
+	font-size: 48px;
+	height: 110px;
+    width: 110px;
+    margin: 3px;
+    border-radius: 100%;
+    line-height: 110px;
+    text-align: center;
+    background: #ffffff;
+    color: #c52d2f;
+    border: 3px solid #ffffff;
+    box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    float: left;
+    margin-right: 25px;
+}
+
+#feature .video-style:hover,#feature .video-style:focus
+{
+    color: #ffffff;
+    border: 3px solid #c52d2f;
+    background: #c52d2f;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px)
+{
+   #main-slider
+   {
+       display:none;
+   }
+   .sicau-logo
+   {
+      
+       bottom:0;
+       top:auto;
+       width:50px;
+   }
+}

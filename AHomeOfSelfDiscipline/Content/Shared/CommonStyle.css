@@ -1,0 +1,71 @@
+﻿.red
+{
+    color:Red;
+}
+.blue
+{
+    color:Blue;    
+}
+.white
+{
+    color:white;
+}
+.green
+{
+    color:green;
+}
+.skyblue
+{
+    color:#39adb4;
+}
+.hidden
+{
+    display:none;
+}
+.cursor
+{
+    cursor:pointer;
+}
+.margin-bottom-10
+{
+    margin-bottom:10px;
+}
+.margin-left-10
+{
+    margin-left:10px;
+}
+.margin-left-20
+{
+    margin-left:20px;
+}
+.margin-right-10
+{
+    margin-right:10px;
+}
+.margin-right-20
+{
+    margin-right:20px;
+}
+.float-left
+{
+    float:left;
+}
+.float-right
+{
+    float:right;
+}
+
+table a,
+table a:hover,
+table a:focus
+{
+    text-decoration:none;
+}
+
+.font-size-15
+{
+    font-size: 15px;
+     color: white; 
+    margin-left: 20px;
+    font-family: initial;
+}

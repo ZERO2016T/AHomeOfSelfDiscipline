@@ -1,0 +1,154 @@
+﻿#container {
+  height: 500px;
+}
+
+.register-form input
+{
+    padding: 5px 5px;
+}
+
+.register-form {
+    float:left;
+    margin-top: 50px;
+    margin-left:10%;
+    width: 80%;
+    padding: 20px 50px 40px 50px;
+    background-color:#f8f8f8;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+
+.register-form .sub-title {
+  
+    text-align:center;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:30px;
+    line-height:32px;
+}
+
+.register-form .split-line {
+  width: 100%;
+  border-bottom:2px solid #bbb;
+  margin-bottom:15px;
+  min-width:140px;
+}
+
+.register-form .infor-line {
+  width: 100%;
+}
+
+.register-form .infor-line .infor-col-1
+{
+     width: 90%;
+}
+
+.register-form .infor-line .infor-col-2 {
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+.register-form .infor-line .infor-col-3 {
+  width: 25%;
+  
+}
+
+.register-form .infor-line .infor-major
+{
+    width: 34%;
+    float: left;
+    margin-right: 3%;
+}
+
+.register-form .infor-line .infor-grade
+{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+.register-form .infor-line .infor-class
+{
+    width: 30%;
+    float: left;
+}
+
+.register-form .infor-line label
+{
+    font-family: "微软雅黑";
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.btn-primary
+{
+    background-color:#46A3FF;
+    border-color:#46A3FF;
+    color:white;
+}
+
+.btn-primary:focus,.btn-primary:hover
+{
+    background-color:#2894FF;
+    border-color:#2894FF;
+     color:white;
+}
+
+.register-form .input-line .submit-btn
+{
+    margin-top:35px;
+    float:left;
+    width:15%;
+    min-width:100px;
+}
+
+.register-form .input-line .reset-btn
+{
+    margin-top:35px;
+    margin-right: 10%;
+    float:right;
+    width:15%;
+    min-width:100px;
+}
+
+#bottom
+{
+    margin-top:50px;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .register-form .infor-line .infor-col-1,
+  .register-form .infor-line  .infor-col-2,
+  .register-form .infor-line .infor-major,
+  .register-form .infor-line .infor-grade,
+  .register-form .infor-line .infor-class,
+  .register-form .input-line .input-col-4,
+  .register-form .input-line .reset-btn,
+  .register-form .input-line .submit-btn
+  {
+      width:100%;
+  }
+  .input-line .input-col-4
+  {
+      margin-top:20px;
+  }
+   .register-form .input-line .submit-btn,
+  .register-form .input-line .reset-btn
+  {
+       margin-top:20px;
+      margin-right:0;
+  }
+  #container {
+       height: 700px;
+  }
+  #bottom
+  {
+       margin-top:250px;
+  }
+}

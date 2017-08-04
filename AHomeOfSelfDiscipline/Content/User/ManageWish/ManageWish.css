@@ -1,0 +1,179 @@
+﻿#container .Wish {
+  width: 80%;
+  margin: 0 auto;
+}
+#container .Wish .me-title {
+    margin-top:15px;
+}
+
+#container .Wish .MyWish {
+  width: 100%;
+  height: 86px;
+  margin: 15px auto;
+  margin-top:0;
+  display: block;
+}
+#container .Wish .MyWish .Button {
+  float: left;
+}
+#container .Wish .MyWish .Button img {
+  width: 80px;
+  vertical-align: middle;
+}
+#container .Wish .MyWish .Button .UpdateWish {
+  margin-top: 10px;
+  text-align: center;
+}
+#container .Wish .MyWish .Button .UpdateWish a {
+  background-color: #1382C9;
+  color: white;
+  font-family: "微软雅黑";
+  padding: 5px 10px;
+  border: 4px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+#container .Wish .MyWish .Button .UpdateWish a:hover {
+  background-color: #3B3E40;
+}
+#container .Wish .MyWish textarea {
+  width: 85%;
+  float: left;
+  margin-top: 20px;
+  border-color: #1382C9;
+  background-color: #1382C9;
+  color: white;
+  font-family: "微软雅黑";
+  border-radius: 5px;
+  line-height: 20px;
+}
+
+.table-style table tr .text-left
+{
+    text-align:left !important;
+}
+
+.table-style table tr td img
+{
+    margin-left:15%;
+}
+
+/*<<==弹出子窗口*/
+#mymodal
+{
+   z-index:100000;
+}
+
+#mymodal .modal-content
+{
+    margin-top:90px;
+}
+
+#mymodal .templatemo-content-container
+{
+    padding:40px 50px;
+    padding-top:25px;
+}
+
+#mymodal .templatemo-content-bg {
+    border: 1px solid #e5e5e5;
+    background: url('../../../image/User/Index/introduction-bg.png') no-repeat;
+    background-size: 100% 100%;
+    border-radius:5px;
+    padding:40px;
+}
+#mymodal .btn-close
+{
+   border-radius:3px;
+   padding:2px 4px;
+   border:0px;
+}
+
+#mymodal .change-min-height
+{
+    min-height:0px;
+}
+
+#mymodal .user-wish-infor
+{
+    border:1px solid #0094ff;
+     border-radius:5px;
+}
+
+#mymodal .user-wish-infor .information
+{
+    float:left;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+#mymodal .user-wish-infor .information img
+{
+    float:left;
+    width:30%;
+    margin-left: 10%;
+    min-width:50px;
+}
+
+#mymodal .user-wish-infor .information .infor-user
+{
+    float: left;
+    margin-left: 10%;
+    width: 50%;
+    line-height:22px;
+}
+
+#mymodal .user-wish-infor .infor-wish
+{
+    padding:10px;
+    margin-left: 10%;
+    margin-bottom:10px;
+    clear:both;
+    line-height:18px;
+}
+
+/*弹出子窗口==>>*/
+
+@media only screen and (max-width: 924px), only screen and (max-device-width: 924px) {
+  #container .Wish .MyWish textarea {
+    width: 83%;
+  }
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  #container .Wish .MyWish textarea {
+    width: 80%;
+  }
+   .table-style table tr td img
+    {
+        margin-left:0;
+    }
+  #mymodal .user-wish-infor .information .infor-user
+  {
+      width:100%;
+  }
+}
+@media only screen and (max-width: 667px), only screen and (max-device-width: 667px) {
+  #container .Wish .MyWish textarea {
+    width: 77%;
+  }
+}
+@media only screen and (max-width: 567px), only screen and (max-device-width: 567px) {
+  #container .Wish .MyWish textarea {
+    width: 73%;
+  }
+}
+@media only screen and (max-width: 457px), only screen and (max-device-width: 457px) {
+  #container .Wish .MyWish textarea {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 367px), only screen and (max-device-width: 367px) {
+  #container .Wish .MyWish textarea {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 337px), only screen and (max-device-width: 337px) {
+  #container .Wish .MyWish textarea {
+    width: 55%;
+  }
+}

@@ -1,0 +1,48 @@
+.navbar-brand img
+{
+	height:70px;
+}
+
+#toTop 
+{
+    z-index:1000;
+    position: fixed;
+    bottom: 10px;
+    right: 2%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration:none;
+    display:none;
+    font-size:26px;
+}
+
+#toTop:hover 
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+@media (max-width:768px)
+{
+	.navbar-brand img
+	{
+		height:50px;
+	}
+     #footer .pull-right
+    {
+        display:none;
+    }
+     #footer .row
+     {
+         text-align:center;
+     }
+}

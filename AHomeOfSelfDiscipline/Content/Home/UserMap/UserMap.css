@@ -1,0 +1,56 @@
+﻿.baidu-map
+{
+    margin:50px 0;
+	margin-left:10%;
+    width:80%;
+}
+
+.baidu-map .map-area
+{
+    height:580px;
+    width:100%;
+    padding:3px;
+    border: 3px solid #404040;
+	-moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+	box-shadow: 10px 10px 5px #888888;
+    /*background-image: repeating-linear-gradient(-45deg,#cc2a2d,#cc2a2d 30px,#f2f2f2 30px,#f2f2f2 40px,#0e71bb 40px,#0e71bb 70px,#f2f2f2 70px,#f2f2f2 80px);*/  
+}
+
+#baiduMap
+{
+    width:100%;
+    height:100%;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px)
+{
+    .baidu-map .map-area
+    {
+        height:500px;
+    }
+}
+
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px)
+{
+    .baidu-map .map-area
+    {
+        height:400px;
+    }
+}
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px)
+{
+    .baidu-map .map-area
+    {
+        height:350px;
+    }
+}
+
+@media only screen and (max-width: 500px), only screen and (max-device-width: 500px)
+{
+    .baidu-map .map-area
+    {
+        height:300px;
+    }
+}

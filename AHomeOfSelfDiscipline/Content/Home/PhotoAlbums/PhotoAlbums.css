@@ -1,0 +1,74 @@
+﻿.clear {
+clear: both;
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+img {
+border: none;
+}
+
+a {
+text-decoration: none;
+}
+
+#page-content
+{
+    margin-top:50px;
+}
+
+#page-content .center
+{
+    padding-bottom:0;
+}
+
+#piclist {
+    width: 75%;
+    min-width:320px !important;
+    padding: 20px 50px 40px 50px;
+    margin: 50px auto;
+     -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+
+    #piclist ul li {
+        list-style: none;
+        float: left;
+        background: url('../../../image/Home/PhotoAlbums/photo-bg.gif') 10px 6px no-repeat;
+        width: 220px;
+        padding: 20px 0 0 25px;
+        height: 210px;
+        margin-top: 0px;
+    }
+
+#piclist ul li img {
+width: 172px;
+height: 129px;
+float: left;
+}
+
+#piclist ul li h5 {
+    display:block; 
+    clear:both; 
+    width:100%;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    padding: 25px 0 10px 10px;
+    text-align:center;
+}
+
+#piclist ul li a {
+color: #666;
+}
+
+#piclist ul li a:hover {
+color: #03c;
+}
+

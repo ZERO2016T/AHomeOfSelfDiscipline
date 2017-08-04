@@ -1,0 +1,30 @@
+.input-line
+{
+    width:100%;
+}
+
+.input-line .input-col-2
+{
+    margin-left:5%;
+    float:left;
+    width:40%;
+}
+.input-line .input-col-4
+{
+    margin-left:5%;
+    float:left;
+    width:10%;
+}
+
+@media (max-width: 767px)
+{
+    .input-line .input-col-2, .input-line .input-col-4
+    {
+        width:90%;
+    }
+   
+    .widget
+    {
+        height:500px;
+    }
+}

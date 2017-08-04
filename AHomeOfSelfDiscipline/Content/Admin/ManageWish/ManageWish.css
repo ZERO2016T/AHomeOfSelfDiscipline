@@ -1,0 +1,83 @@
+﻿/*<<==弹出子窗口*/
+#mymodal
+{
+   z-index:100000;
+}
+
+#mymodal .modal-content
+{
+    margin-top:90px;
+}
+
+#mymodal .templatemo-content-container
+{
+    padding:40px 50px;
+    padding-top:25px;
+}
+
+#mymodal .templatemo-content-bg {
+    border: 1px solid #e5e5e5;
+    background: url('../../../image/User/Index/introduction-bg.png') no-repeat;
+    background-size: 100% 100%;
+    border-radius:5px;
+    padding:40px;
+}
+#mymodal .btn-close
+{
+   border-radius:3px;
+   padding:2px 4px;
+   border:0px;
+}
+
+#mymodal .change-min-height
+{
+    min-height:0px;
+}
+
+#mymodal .user-wish-infor
+{
+    border:1px solid #0094ff;
+     border-radius:5px;
+}
+
+#mymodal .user-wish-infor .information
+{
+    float:left;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+#mymodal .user-wish-infor .information img
+{
+    float:left;
+    width:30%;
+    margin-left: 10%;
+    min-width:50px;
+}
+
+#mymodal .user-wish-infor .information .infor-user
+{
+    float: left;
+    margin-left: 10%;
+    width: 50%;
+    line-height:22px;
+}
+
+#mymodal .user-wish-infor .infor-wish
+{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:10px;
+    clear:both;
+    line-height:18px;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  #mymodal .user-wish-infor .information .infor-user
+  {
+      width:100%;
+  }
+}
+
+/*弹出子窗口==>>*/
+

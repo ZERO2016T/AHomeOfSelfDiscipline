@@ -1,0 +1,41 @@
+﻿#services
+{
+   background-color:#808080;
+}
+
+#services .container .row .animated
+{
+    min-height:268px;
+}
+#services .container .row .media
+{
+    margin-bottom:10px;
+}
+#services .container .row .media .pull-left
+{
+    width:40%;
+}
+
+#services .container .row .media .pull-left img
+{
+    margin-left:10%;
+    width:80%;
+}
+
+#services .pagination-container
+{
+    margin-left:8%;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px)
+{
+    #services .pagination-container
+    {
+        margin-left:3%;
+    }
+    #services .pagination-container ul.pagination>li>a
+    {
+        font-size:10px;
+        padding:2px 5px;
+    }
+}

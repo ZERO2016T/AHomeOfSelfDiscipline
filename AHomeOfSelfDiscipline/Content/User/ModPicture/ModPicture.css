@@ -1,0 +1,122 @@
+﻿
+#container {
+  height: 500px;
+}
+#container .Updatehead {
+  background-color: #0676C0;
+  color: white;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+}
+
+#container form {
+  width: 80%;
+  margin: 30px auto;
+}
+#container form label {
+  font-family: "微软雅黑";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#container form .PhotoShow {
+  width: 60%;
+  float: left;
+}
+#container form .PhotoShow figure {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+#container form .PhotoShow figure img {
+  width: 100%;
+  max-height:300px;
+  opacity: 0.8;
+  transition: all 0.15s;
+}
+#container form .PhotoShow figure figcaption {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: skew(90deg);
+  color: white;
+  font-family: "微软雅黑";
+  transition: all 0.35s;
+}
+#container form .PhotoShow figure figcaption h1 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#container form .PhotoShow figure figcaption p {
+  font-size: 16px;
+}
+#container form .PhotoShow figure figcaption p,
+#container form .PhotoShow figure figcaption h1 {
+  transition: all 0.35s;
+  font-family: "微软雅黑";
+}
+#container form .PhotoShow figure:hover figcaption {
+  transform: skew(0deg);
+}
+#container form .PhotoShow figure:hover img {
+  transform: scale(1.1, 1.1);
+}
+#container form .form-group {
+  width: 40%;
+  float: right;
+  padding-right: 5%;
+}
+#container form .form-group button
+{
+    background: #208ed3;
+    border: 1px solid #208ed3;
+    color: #fff;
+}
+#container form .form-group button:hover
+{
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+#container form .form-group label {
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+/** iPads (landscape) **/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #container {
+    height: 700px;
+  }
+  #container form .PhotoShow {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #container form .form-group {
+    width: 80%;
+    margin-right: 7%;
+    position: relative;
+  }
+}
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  #container {
+    height: 650px;
+  }
+  #container form .PhotoShow {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #container form .form-group {
+    width: 80%;
+    margin-right: 47%;
+    position: relative;
+    left: 40%;
+  }
+}

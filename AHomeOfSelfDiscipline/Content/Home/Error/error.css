@@ -1,0 +1,36 @@
+﻿body
+{
+    text-align:center;
+}
+.error-body-bg
+{
+    background-color: #2B7BDC;
+}
+.error-box
+{
+    margin: 150px 35%;
+	width: 50%;
+}
+
+.error-box .error-img
+{
+	width: 50%;
+}
+
+.error-box .error-img img
+{
+	width: 50%;
+}
+
+.error-box .error-text
+{
+	margin-top: 30px;
+	width: 50%;
+	color: #fff;
+}
+
+.error-box .error-text p
+{
+    font-size: 1.6em;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+﻿/*<<==弹出子窗口*/
+#mymodal
+{
+   z-index:100000;
+}
+
+#mymodal .modal-content
+{
+    margin-top:90px;
+}
+
+#mymodal .templatemo-content-container
+{
+    padding:40px 50px;
+    padding-top:25px;
+}
+
+#mymodal .templatemo-content-bg {
+    border: 1px solid #e5e5e5;
+    background: url('../../../image/User/Index/introduction-bg.png') no-repeat;
+    background-size: 100% 100%;
+    border-radius:5px;
+    padding:40px;
+}
+#mymodal .btn-close
+{
+   border-radius:3px;
+   padding:2px 4px;
+   border:0px;
+}
+
+#mymodal .change-min-height
+{
+    min-height:0px;
+}
+
+#mymodal .user-picture-infor
+{
+    border:1px solid #0094ff;
+    border-radius:5px;
+}
+
+#mymodal .user-picture-infor .picture
+{
+    padding:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+#mymodal .user-picture-infor .picture img
+{
+    width:40%;
+    min-width:50px;
+    border:1px solid #ff0000;
+}
+
+#mymodal .user-picture-infor .pic-description
+{
+    padding:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+/*弹出子窗口==>>*/
+

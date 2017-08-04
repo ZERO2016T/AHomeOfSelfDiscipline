@@ -1,0 +1,66 @@
+.widget
+{
+   height:800px;
+}
+.input-line
+{
+    width:100%;
+}
+
+.input-line .input-col-1
+{
+    margin-left:5%;
+    width:90%;
+}
+
+.input-line .input-col-2
+{
+    margin-left:5%;
+    float:left;
+    width:40%;
+}
+.input-line .input-col-4
+{
+    margin-top:20px;
+    margin-left:5%;
+    float:left;
+    width:10%;
+}
+
+.widget .content .toTop
+{
+    margin-left:5%;
+    height: 15px;
+	margin-bottom: 25px;
+}
+
+.widget .content .toTopTxt
+{
+	display: block;
+	float: left;
+	margin-top: 5px;
+}
+
+.widget .content .toTopCheck
+{
+	display: block;
+	float: left;
+	width: 15px;
+    height:15px;
+}
+#edui1
+{
+    width:100% !important;
+}
+
+@media (max-width: 767px)
+{
+    .input-line .input-col-2, .input-line .input-col-4
+    {
+        width:90%;
+    }
+   .widget
+    {
+        height:1000px;
+    }
+}

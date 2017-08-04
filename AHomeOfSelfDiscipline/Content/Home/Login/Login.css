@@ -1,0 +1,62 @@
+#login-form
+{
+    margin-top:100px;
+}
+
+.btn-color
+{
+    background-color:#46A3FF;
+    border-color:#46A3FF;
+    color:white;
+}
+.btn-color:hover,.btn-color:focus
+{
+    background-color:#2894FF;
+    border-color:#2894FF;
+    color:white;
+    border-radius:6px;
+}
+.login-panel .panel-heading
+{
+    border-radius:4px;
+}
+.login-panel .panel-body a
+{
+    color:black;
+}
+.login-panel .panel-body a:hover
+{
+    color: #d43133;
+}
+#bottom
+{
+    margin-top:100px;
+}
+/*#footer
+{
+    margin-top:132px;
+}*/
+@media (min-width:1024px)
+{
+    .login-panel{
+        min-width:360px;
+    }
+    .login-panel .panel{
+         min-width:360px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px)
+{
+    .login-panel{
+        margin-left:5%;
+        width:90%;
+    }
+    
+}
+@media (max-width:767px)
+{
+    .login-panel{
+         margin-left:10%;
+        width:80%;
+    }
+}
