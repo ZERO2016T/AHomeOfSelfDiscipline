@@ -123,7 +123,7 @@ namespace AHomeOfSelfDiscipline.Models
         /// </summary>
         /// <param name="user">用户对象</param>
         /// <returns>字符串</returns>
-        public string VerificationUserInfo(User user)
+        public static string VerificationUserInfo(User user)
         {
             //验证学号信息
             if (user.StudentNumber != null)

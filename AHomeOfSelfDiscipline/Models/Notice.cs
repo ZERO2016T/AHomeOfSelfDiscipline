@@ -44,7 +44,7 @@ namespace AHomeOfSelfDiscipline.Models
         /// </summary>
         public string PublcationCategory { get; set; }
 
-        public string VerificationMatch(Notice notice)
+        public static string VerificationMatch(Notice notice)
         {
             //验证赛事主题
             if (notice.NoticeSubject != null)

@@ -44,7 +44,12 @@ namespace AHomeOfSelfDiscipline.Models
         /// </summary>
         public string PublcationCategory { get; set; }
 
-        public string VerificationMatch(Match match)
+        /// <summary>
+        /// 验证赛事类对象
+        /// </summary>
+        /// <param name="match"></param>
+        /// <returns></returns>
+        public static string VerificationMatch(Match match)
         {
             //验证赛事主题
             if (match.MatchSubject != null)

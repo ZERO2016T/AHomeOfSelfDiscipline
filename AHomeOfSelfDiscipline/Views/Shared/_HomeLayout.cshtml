@@ -45,8 +45,9 @@
                     <li><a href="#" class="scrollnoticeSlowly">公告</a></li>
                     <li><a href="#" class="scrollMatchSlowly">赛事</a></li>
                     <li><a href="#" class="scrollAboutSlowly">关于我们</a></li>
-                    <li><a href="#" class="scrollContactSlowly">联系我们</li>
-                    @if (Request.IsAuthenticated)
+                    <li><a href="#" class="scrollContactSlowly">联系我们</a></li>
+                    <li><a href="~/Home/Login" >登录</a></li>
+                    @*@if (Request.IsAuthenticated)
                     {
                         if (User.IsInRole("User"))
                         {
@@ -64,7 +65,7 @@
                     else
                     {
                         <li>@Html.ActionLink("登录", "Login", "Home")</li>
-                    }
+                    }*@
                 </ul>
             </div>
         </div>
