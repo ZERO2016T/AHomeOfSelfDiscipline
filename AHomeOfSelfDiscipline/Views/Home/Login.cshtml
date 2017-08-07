@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Login";
+    ViewBag.Title = "登录";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
 <style type="text/css">
@@ -140,14 +140,14 @@
 <div id="mydiv" class="container">
     <div class="row">
         <div class="col-md-offset-4 col-md-4">
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post" action="~/Home/Login">
                 <span class="heading" style="color: #ffffff">欢迎来到——自律之家</span>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="用户名或电子邮件">
+                    <input type="text" class="form-control" name="Account" placeholder="用户名或昵称">
                     <i class="fa fa-user"></i>
                 </div>
                 <div class="form-group help">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="密　码">
+                    <input type="password" class="form-control" name="Password" placeholder="密　码">
                     <i class="fa fa-lock"></i>
                     <a href="#" class="fa fa-question-circle"></a>
                 </div>

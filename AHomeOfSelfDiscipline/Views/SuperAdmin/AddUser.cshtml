@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "添加用户";
+    Layout = "~/Views/Shared/_SuperAdminLayout.cshtml";
+}
+
+<form action="~/SuperAdmin/AddUser" method="post">
+<div class="p-a white lt box-shadow">
+    <div class="row">
+        <div class="col-sm-6">
+            <h4 class="m-b-0 _300">欢迎新成员加入</h4>
+            <small class="text-muted">大家庭——信工 ● 自律部 </small>
+        </div>
+
+    </div>
+</div>
+<br/><br/>
+<div class="col-sm-6">
+    <div class="md-form-group float-label">
+        <input name="StudentNumber" class="md-input" required>
+        <label>学号</label>
+    </div>
+</div>
+<div class="col-sm-6">
+    <div class="md-form-group float-label">
+        <input name="Name" class="md-input" required>
+        <label>姓名</label>
+    </div>
+</div>
+<div class="col-sm-12">
+    <div class="md-form-group">
+        <input type="password" name="Password" class="md-input" required>
+        <label>密码</label>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-md-2 form-control-label"><h5>新成员具有的权限</h5></label>
+    <div class="col-md-9">
+        <select name="Authority" class="form-control input-c">
+            <option value="SuperAdmin">超级管理员</option>
+            <option value="Admin">管理员</option>
+            <option value="User">普通用户</option>
+        </select>
+    </div>
+</div>
+
+<div class="form-group row">
+    <label class="col-md-2 form-control-label"><h5>新成员属于那个小组</h5></label>
+    <div class="col-md-9">
+        <select name="GroupPost" class="form-control input-c">
+            <option value="PersonnelSection">人事组</option>
+            <option value="SupervisionTeam">监察组</option>
+            <option value="OutreachGroup">外联组</option>
+            <option value="PropagandaGroup">宣传组</option>
+            <option value="GangsterGroup">大佬组</option>
+        </select>
+    </div>
+</div>
+
+    <div class="form-group row">
+        <label class="col-md-2 form-control-label"><h5>新成员的第一职务是</h5></label>
+        <div class="col-md-9">
+            <select name="Post" class="form-control input-c">
+                <option value="Minister">部长</option>
+                <option value="ViceMinister">副部长</option>
+                <option value="CommitteeMember">委员</option>
+                <option selected="selected" value="Mohamed">干事</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label class="col-md-2 form-control-label"><h5>新成员的第二职务是</h5></label>
+        <div class="col-md-9">
+            <select name="SecondPost" class="form-control input-c">
+                <option selected="selected" value="Empty">暂无</option>
+                <option value="GroupLeader">组长</option>
+                <option value="DeputyTeamLeader">副组长</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+    <center><button type="submit"  class="btn btn-fw primary">让新成员加自律部的大家庭</button></center>
+   </div>
+</form>

@@ -10,9 +10,38 @@ namespace Test
 {
     class Program
     {
-        static void Main(string[] args)
+        public enum TimeOfDay
         {
-            Console.WriteLine(CommonStatusCodes.MatchClassCode.FreshmanManual.ToString());
+            Morning ,
+            Afternoon,
+            Evening 
+        }
+
+        static void Main()
+        {
+            WriteGreeting(TimeOfDay.Morning);
+            WriteGreeting(TimeOfDay.Afternoon);
+            WriteGreeting(TimeOfDay.Evening);
+            Console.ReadLine();
+        }
+        static void WriteGreeting(TimeOfDay timeofday)
+        {
+            //switch用法  
+            switch (timeofday)
+            {
+                case TimeOfDay.Morning:
+                    Console.WriteLine("Good morning!");
+                    break;
+                case TimeOfDay.Afternoon:
+                    Console.WriteLine("Good afternoon!");
+                    break;
+                case TimeOfDay.Evening:
+                    Console.WriteLine("Good evening!");
+                    break;
+                default:
+                    Console.WriteLine("Hello!");
+                    break;
+            }
         }
     }
 }

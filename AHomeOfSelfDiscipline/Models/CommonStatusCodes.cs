@@ -57,5 +57,103 @@ namespace AHomeOfSelfDiscipline.Models
             /// </summary>
             Error
         }
+
+        /// <summary>
+        /// 权限码
+        /// </summary>
+        public enum Authority
+        {
+            /// <summary>
+            /// 超级管理员
+            /// </summary>
+            SuperAdmin,
+
+            /// <summary>
+            ///管理员 
+            /// </summary>
+            Admin,
+
+            /// <summary>
+            /// 用户
+            /// </summary>
+            User
+        }
+
+        /// <summary>
+        /// 职务码
+        /// </summary>
+        public enum PostCode
+        {
+            /// <summary>
+            /// 部长
+            /// </summary>
+            Minister,
+
+            /// <summary>
+            /// 副部长
+            /// </summary>
+            ViceMinister,
+
+            /// <summary>
+            /// 委员
+            /// </summary>
+            CommitteeMember,
+
+            /// <summary>
+            /// 干事
+            /// </summary>
+            Mohamed,
+
+            /// <summary>
+            /// 组长
+            /// </summary>
+            GroupLeader,
+
+            /// <summary>
+            /// 副组长
+            /// </summary>
+            DeputyTeamLeader,
+
+            /// <summary>
+            /// 暂无
+            /// </summary>
+            Empty
+        }
+        
+        /// <summary>
+        /// 组别码
+        /// </summary>
+        public enum GroupCode
+        {
+            /// <summary>
+            /// 人事组
+            /// </summary>
+            PersonnelSection,
+
+            /// <summary>
+            /// 监察组
+            /// </summary>
+            SupervisionTeam,
+
+            /// <summary>
+            /// 外联组
+            /// </summary>
+            OutreachGroup,
+
+            /// <summary>
+            /// 宣传组
+            /// </summary>
+            PropagandaGroup,
+
+            /// <summary>
+            /// 大佬组
+            /// </summary>
+            GangsterGroup ,
+            
+            /// <summary>
+            /// 所有组
+            /// </summary>
+            AllGroup
+        }
     }
 }

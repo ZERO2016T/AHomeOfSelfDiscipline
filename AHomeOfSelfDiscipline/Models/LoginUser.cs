@@ -8,14 +8,10 @@ namespace AHomeOfSelfDiscipline.Models
     public class LoginUser
     {
         /// <summary>
-        /// 学号
+        /// 账号
         /// </summary>
-        public string StudentNumber { get; set; }
+        public string Account { get; set; }
 
-        /// <summary>
-        /// 昵称
-        /// </summary>
-        public string NickName { get; set; }
 
         /// <summary>
         /// 密码
